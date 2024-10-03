@@ -6,7 +6,7 @@ import app from '../src/app';
 describe('Player API', () => {
   it('should return a sample player', async () => {
     const res = await request(app)
-      .get('/api/player/1')
+      .get('/player/1')
       .expect(200);
 
     expect(res.body).to.have.property('nickName');

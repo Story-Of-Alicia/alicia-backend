@@ -1,9 +1,0 @@
-/src
-  /models
-    Player.ts
-  /routes
-    player.ts
-  app.ts
-  server.ts
-/tests
-  player.test.ts

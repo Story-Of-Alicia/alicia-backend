@@ -1,9 +1,9 @@
 import express from 'express';
-import playerRoutes from './routes/player';
+import alicia1PlayerRoutes from './routes/alicia_1/player';
 
 const app = express();
 
 app.use(express.json());
-app.use('/player', playerRoutes);
+app.use('/alicia1/player', alicia1PlayerRoutes);
 
 export default app;

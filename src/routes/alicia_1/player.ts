@@ -1,5 +1,5 @@
 import express from 'express';
-import { Player, Gender, AgeGroup } from '../models/Player';
+import { Player, Gender, AgeGroup } from '../../models/alicia_1/Player';
 
 const router = express.Router();
 

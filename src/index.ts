@@ -1,7 +1,8 @@
-import app from './app';
+import { server } from './app';
+import { ENV_VARS } from './constants/envs'
 
-const port = process.env.PORT || 3000;
+const port = ENV_VARS.PORT || 3000;
 
-app.listen(port, () => {
+server.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
